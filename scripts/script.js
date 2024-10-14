@@ -29,3 +29,7 @@ function bishBosh() {
 window.addEventListener("load", function() {
     document.getElementById("bishboshbutton").addEventListener("click", bishBosh);
 });
+
+document.getElementById("length").value = 100;
+document.getElementById("bish").value = 3;
+document.getElementById("bosh").value = 4;
